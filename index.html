@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Ethan Sucks</title>
+<meta name="viewport" content="width-divice-width, initial-scale=0.1">
+<link rel="stylesheet" href="blueberry.css" />
+<style type="text/css">
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	background: #f0f0f0;
+	font: 14px/20px Arial, San-Serif;
+	color: #555;
+	margin: 0;
+}
+h1 {
+	margin: 10px;
+	font-size: 180%;
+	line-height: 110%;
+	padding: 5% 0;
+}
+h2 {
+	text-decoration: underline;
+	line-height: 280%;
+	padding-left: 2%;
+}
+h3 {
+	margin: 10px;
+	line-height: 110%;
+	padding: 5% 0;
+}
+p {
+	padding: 1%;
+}
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+header {
+	background: #405580;
+	width: 100%;
+	height: 120px;
+	postion: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.90;
+}
+#logo {
+	margin: 20px;
+	float: left;
+	width: 250px;
+	height: 100px;
+	background: url(http://logos.textgiraffe.com/logos/logo-name/Ethan-designstyle-smoothie-m.png) no-repeat center;
+}
+nav {
+	float: right;
+	padding: 35px 20px 20px 0px;
+}
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
+}
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+.current {
+	color: #FFF;
+	text-decoration: underline;
+}
+#doc {
+	margin: 40px 0;
+}
+#content {
+	margin: 0 auto;
+	max-width: 1140px;
+	margin-top: 110px;
+}
+.blueberry {
+	max-width: 960px;
+	margin-top: 110px;
+}
+section {
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+.clear {
+	clear: both;
+}
+article {
+	float: left;
+	margin: 0 auto;
+	width:50%;
+	height: auto;
+	padding: 4%;
+}
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 35%;
+	height: auto;
+	padding: 3;
+}
+ul.gym li {
+	padding-left: 3%
+}
+footer {
+	background: #333333;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.90;
+}
+footer p, footer h3 {
+	color: #FFF;
+}
+footer p a {
+	color: #FFF;
+	text-decoration: none;
+}
+ul.social li {
+	display: inline;
+}
+ul.social li img {
+	height: 50px;
+}
+footer.second {
+	border-top: 1px solid #4D4E50;
+	background-color: #333333;
+	max-height: 50px;
+	text-align: center;
+	opacity: 0.95;
+}
+/*---------------Media!---------------*/
+@media screen and (max-width: 740px) {
+	body {
+		position: absolute;
+	}
+}
+@media screen and (max-width: 740px) {
+	header {
+		position: absolute;
+	}
+	menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #405580;
+		border: 1px solid #FFF;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 2px 0 2px 0;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+	nav:hover ul {
+		display: block;
+	}
+	section {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	article {
+		floa0t: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	aside {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
+</head>
+<body>
+	<header>
+		<a href="#" id="logo"></a>
+		<nav>
+			<a href="#" id="menu-lcon"></a>
+			<ul>
+				<li><a href="#" class="current">Home</a></li>
+				<li><a href="#">Turtle</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="doc">
+		<div id=content">
+			<div class="blueberry">
+				<ul class="slides">
+					<h1>This is Ethan</h1>
+					<h3>He Sucks.</h3>
+					<li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/220px-Polar_Bear_-_Alaska_%28cropped%29.jpg"</li>
+				</ul>
+			</div>
+		</div>
+		
+	<footer>
+		<section>
+			<h3><b>Check out Ethan! Click the Picture!</b></h3>
+			<p><a href="https://www.youtube.com/channel/UC-l0Hfsd2-QixisAEGxnRBg"><img src="https://yt3.ggpht.com/-3fBxctxGGcQ/AAAAAAAAAAI/AAAAAAAAAAA/Ktl7pTkzmmg/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"</a></p>
+		</section>
+	
+	
+	
+	</footer>
+</body>
+</html>
